@@ -1,0 +1,23 @@
+.table {
+  tbody {
+    border-width: 0;
+  }
+  th, td {
+    padding-left: 3px;
+    padding-right: 3px;;
+  }
+}
+.skills {
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    padding: 0 4px;
+    margin-right: 0px;
+    margin-bottom: .25em;
+    background-color: $light-gray;
+    border: solid 1px $medium-gray;
+    border-radius: 3px;
+  }
+}

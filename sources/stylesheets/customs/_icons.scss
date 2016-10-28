@@ -1,0 +1,9 @@
+$fontFileName: "../../fonts/general_foundicons";
+$fontName: "GeneralFoundicons";
+$classPrefix: "icon-gen-";
+@import '../../../bower_components/foundation-icons/foundation_icons_general/sass/general_foundicons';
+
+$fontFileName: "../../fonts/social_foundicons";
+$classPrefix: "icon-soc-";
+$fontName: "SocialFoundicons";
+@import '../../../bower_components/foundation-icons/foundation_icons_social/sass/social_foundicons';

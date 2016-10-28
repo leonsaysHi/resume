@@ -1,0 +1,17 @@
+
+@import '../../bower_components/foundation-sites/scss/foundation';
+@import 'settings';
+
+$breakpoints: (
+  small: 0px,
+  medium: 980px,
+  large: 1100px,
+  xlarge: 1200px,
+);
+
+
+@include foundation-everything;
+@import 'customs/layout';
+@import 'customs/icons';
+@import 'customs/types';
+@import 'customs/components';

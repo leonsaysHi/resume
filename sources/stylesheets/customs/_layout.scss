@@ -1,0 +1,41 @@
+// content wrapper
+.wrapper {
+  max-width: 1140px;
+  margin:0 auto;
+  padding: 0 30px;
+  @include breakpoint(medium) {
+    padding: 0;
+  }
+}
+
+// Header
+html .header {
+  background-color: $black;
+  color: white;
+  padding: 20px 0;
+}
+
+// Body
+@mixin bodylayout(){
+  .wrapper {
+    overflow: hidden;
+    main {
+      float: left;
+      width: 68%;
+    }
+    aside {
+      float: right;
+      width: 32%;
+      padding-left: 30px;
+    }
+  }
+}
+.body {
+  padding: 20px 0;
+  @media print {
+    @include bodylayout();
+  }
+  @include breakpoint(medium) {
+    @include bodylayout();
+  }
+}
