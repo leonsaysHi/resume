@@ -41,4 +41,4 @@ gulp.task('serve', function() {
 
 
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['fonts', 'html', 'watch', 'serve']);
+gulp.task('default', ['fonts', 'html', 'sass', 'watch', 'serve']);
